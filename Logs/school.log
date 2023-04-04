@@ -1,0 +1,269 @@
+INFO :- 2023-04-03 10:07:15,038 - app : Starting the connection to update user values
+INFO :- 2023-04-03 10:07:15,198 - app : he details updated
+INFO :- 2023-04-03 10:07:15,198 - app : he details updated
+INFO :- 2023-04-03 10:07:15,199 - app : Closing the connection
+INFO :- 2023-04-03 10:07:15,199 - app : Closing the connection
+INFO :- 2023-04-03 10:07:15,199 - app : Closing the connection
+WARNING:2023-04-05 00:05:45,620:app:Starting the db connection to update the details 
+ERROR:2023-04-05 00:05:46,317:app:Error occurred: '<=' not supported between instances of 'int' and 'tuple'
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Grades/app.py", line 97, in change_grades
+    if 80 <= average or average <= 100:
+TypeError: '<=' not supported between instances of 'int' and 'tuple'
+ERROR:2023-04-05 00:05:46,317:app:Error occurred: '<=' not supported between instances of 'int' and 'tuple'
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Grades/app.py", line 97, in change_grades
+    if 80 <= average or average <= 100:
+TypeError: '<=' not supported between instances of 'int' and 'tuple'
+WARNING:2023-04-05 00:05:46,320:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:05:46,320:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:05:46,320:app:Hence grade of student updated, closing the connection
+ERROR:2023-04-05 00:05:46,320:app:Exception on /grades/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Grades/app.py", line 97, in change_grades
+    if 80 <= average or average <= 100:
+TypeError: '<=' not supported between instances of 'int' and 'tuple'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Grades/app.py", line 120, in change_grades
+    return jsonify({"message": error})
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type TypeError is not JSON serializable
+ERROR:2023-04-05 00:05:46,320:app:Exception on /grades/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Grades/app.py", line 97, in change_grades
+    if 80 <= average or average <= 100:
+TypeError: '<=' not supported between instances of 'int' and 'tuple'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Grades/app.py", line 120, in change_grades
+    return jsonify({"message": error})
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type TypeError is not JSON serializable
+ERROR:2023-04-05 00:05:46,320:app:Exception on /grades/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Grades/app.py", line 97, in change_grades
+    if 80 <= average or average <= 100:
+TypeError: '<=' not supported between instances of 'int' and 'tuple'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Grades/app.py", line 120, in change_grades
+    return jsonify({"message": error})
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type TypeError is not JSON serializable
+WARNING:2023-04-05 00:07:50,692:app:Starting the db connection to update the details 
+INFO:2023-04-05 00:07:51,060:app:Grades of ('Rajguru',) updated
+INFO:2023-04-05 00:07:51,060:app:Grades of ('Rajguru',) updated
+WARNING:2023-04-05 00:07:51,061:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:07:51,061:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:07:51,061:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:11,555:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:08:11,555:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:08:11,555:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:08:11,555:app:Starting the db connection to update the details 
+INFO:2023-04-05 00:08:11,912:app:Grades of ('Rajguru',) updated
+INFO:2023-04-05 00:08:11,912:app:Grades of ('Rajguru',) updated
+INFO:2023-04-05 00:08:11,912:app:Grades of ('Rajguru',) updated
+INFO:2023-04-05 00:08:11,912:app:Grades of ('Rajguru',) updated
+INFO:2023-04-05 00:08:11,912:app:Grades of ('Rajguru',) updated
+WARNING:2023-04-05 00:08:11,913:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:11,913:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:11,913:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:11,913:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:11,913:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:11,913:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:27,199:app:Starting the db connection to update the details 
+INFO:2023-04-05 00:08:31,654:app:Grades of Rajguru updated
+INFO:2023-04-05 00:08:31,654:app:Grades of Rajguru updated
+WARNING:2023-04-05 00:08:31,655:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:31,655:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:31,655:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:37,948:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:08:37,948:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:08:37,948:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:08:37,948:app:Starting the db connection to update the details 
+INFO:2023-04-05 00:08:38,289:app:Grades of SPB updated
+INFO:2023-04-05 00:08:38,289:app:Grades of SPB updated
+INFO:2023-04-05 00:08:38,289:app:Grades of SPB updated
+INFO:2023-04-05 00:08:38,289:app:Grades of SPB updated
+INFO:2023-04-05 00:08:38,289:app:Grades of SPB updated
+WARNING:2023-04-05 00:08:38,289:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:38,289:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:38,289:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:38,289:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:38,289:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:38,289:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:52,606:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:08:52,606:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:08:52,606:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:08:52,606:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:08:52,606:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:08:52,606:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:08:52,606:app:Starting the db connection to update the details 
+INFO:2023-04-05 00:08:54,920:app:Grades of arijit updated
+INFO:2023-04-05 00:08:54,920:app:Grades of arijit updated
+INFO:2023-04-05 00:08:54,920:app:Grades of arijit updated
+INFO:2023-04-05 00:08:54,920:app:Grades of arijit updated
+INFO:2023-04-05 00:08:54,920:app:Grades of arijit updated
+INFO:2023-04-05 00:08:54,920:app:Grades of arijit updated
+INFO:2023-04-05 00:08:54,920:app:Grades of arijit updated
+INFO:2023-04-05 00:08:54,920:app:Grades of arijit updated
+WARNING:2023-04-05 00:08:54,921:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:54,921:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:54,921:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:54,921:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:54,921:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:54,921:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:54,921:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:54,921:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:08:54,921:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:01,284:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:01,284:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:01,284:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:01,284:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:01,284:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:01,284:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:01,284:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:01,284:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:01,284:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:01,284:app:Starting the db connection to update the details 
+INFO:2023-04-05 00:09:03,454:app:Grades of shreya updated
+INFO:2023-04-05 00:09:03,454:app:Grades of shreya updated
+INFO:2023-04-05 00:09:03,454:app:Grades of shreya updated
+INFO:2023-04-05 00:09:03,454:app:Grades of shreya updated
+INFO:2023-04-05 00:09:03,454:app:Grades of shreya updated
+INFO:2023-04-05 00:09:03,454:app:Grades of shreya updated
+INFO:2023-04-05 00:09:03,454:app:Grades of shreya updated
+INFO:2023-04-05 00:09:03,454:app:Grades of shreya updated
+INFO:2023-04-05 00:09:03,454:app:Grades of shreya updated
+INFO:2023-04-05 00:09:03,454:app:Grades of shreya updated
+INFO:2023-04-05 00:09:03,454:app:Grades of shreya updated
+WARNING:2023-04-05 00:09:03,455:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:03,455:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:03,455:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:03,455:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:03,455:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:03,455:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:03,455:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:03,455:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:03,455:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:03,455:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:03,455:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:03,455:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:10,442:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:10,442:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:10,442:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:10,442:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:10,442:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:10,442:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:10,442:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:10,442:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:10,442:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:10,442:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:10,442:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:10,442:app:Starting the db connection to update the details 
+WARNING:2023-04-05 00:09:10,442:app:Starting the db connection to update the details 
+INFO:2023-04-05 00:09:18,169:app:Grades of Hinata updated
+INFO:2023-04-05 00:09:18,169:app:Grades of Hinata updated
+INFO:2023-04-05 00:09:18,169:app:Grades of Hinata updated
+INFO:2023-04-05 00:09:18,169:app:Grades of Hinata updated
+INFO:2023-04-05 00:09:18,169:app:Grades of Hinata updated
+INFO:2023-04-05 00:09:18,169:app:Grades of Hinata updated
+INFO:2023-04-05 00:09:18,169:app:Grades of Hinata updated
+INFO:2023-04-05 00:09:18,169:app:Grades of Hinata updated
+INFO:2023-04-05 00:09:18,169:app:Grades of Hinata updated
+INFO:2023-04-05 00:09:18,169:app:Grades of Hinata updated
+INFO:2023-04-05 00:09:18,169:app:Grades of Hinata updated
+INFO:2023-04-05 00:09:18,169:app:Grades of Hinata updated
+INFO:2023-04-05 00:09:18,169:app:Grades of Hinata updated
+INFO:2023-04-05 00:09:18,169:app:Grades of Hinata updated
+WARNING:2023-04-05 00:09:18,170:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:18,170:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:18,170:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:18,170:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:18,170:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:18,170:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:18,170:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:18,170:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:18,170:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:18,170:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:18,170:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:18,170:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:18,170:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:18,170:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:09:18,170:app:Hence grade of student updated, closing the connection
+WARNING:2023-04-05 00:16:58,416:app:Starting the db connection to display student report card
+INFO:2023-04-05 00:17:01,064:app:Displayed report card of student mo. 6
+INFO:2023-04-05 00:17:01,064:app:Displayed report card of student mo. 6
+WARNING:2023-04-05 00:17:01,067:app:Hence students report card displayed, closing the connection
+WARNING:2023-04-05 00:17:01,067:app:Hence students report card displayed, closing the connection
+WARNING:2023-04-05 00:17:01,067:app:Hence students report card displayed, closing the connection

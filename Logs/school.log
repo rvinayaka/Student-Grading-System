@@ -267,3 +267,13 @@ INFO:2023-04-05 00:17:01,064:app:Displayed report card of student mo. 6
 WARNING:2023-04-05 00:17:01,067:app:Hence students report card displayed, closing the connection
 WARNING:2023-04-05 00:17:01,067:app:Hence students report card displayed, closing the connection
 WARNING:2023-04-05 00:17:01,067:app:Hence students report card displayed, closing the connection
+WARNING:2023-04-05 12:41:29,308:app:Starting the db connection to display student in the list
+INFO:2023-04-05 12:41:29,666:app:Displayed list of all students in the list
+INFO:2023-04-05 12:41:29,666:app:Displayed list of all students in the list
+WARNING:2023-04-05 12:41:29,667:app:Hence students displayed, closing the connection
+WARNING:2023-04-05 12:41:29,667:app:Hence students displayed, closing the connection
+WARNING:2023-04-05 12:41:29,667:app:Hence students displayed, closing the connection
+WARNING:2023-04-05 12:41:29,669:app:Closing the connection
+WARNING:2023-04-05 12:41:29,669:app:Closing the connection
+WARNING:2023-04-05 12:41:29,669:app:Closing the connection
+WARNING:2023-04-05 12:41:29,669:app:Closing the connection

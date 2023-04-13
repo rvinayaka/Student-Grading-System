@@ -14,13 +14,13 @@ app = Flask(__name__)
 # grades INTEGER, average NUMERIC, report_progress VARCHAR(300));
 
 # Table
-#  sno | std_name | total | average | report_progress  | grades
-# -----+----------+-------+---------+------------------+--------
-#    1 | Rajguru  |   200 |    78.2 | done calculating | A
-#    2 | SPB      |   250 |      76 | reviewed         | A
-#    3 | arijit   |   220 |      71 | evaluating       | A
-#    4 | shreya   |   210 |      70 | reviewing        | A
-#    6 | Hinata   |   250 |      75 | done             | A
+#  sno | std_name | total | average | report_progress  | grades |         performance         | attendance
+# -----+----------+-------+---------+------------------+--------+-----------------------------+------------
+#    1 | Rajguru  |   200 |    78.2 | done calculating | A      | Good at thinking            |         78
+#    2 | SPB      |   250 |      76 | reviewed         | A      | Need to improve handwriting |         92
+#    3 | arijit   |   220 |      71 | evaluating       | A      | Good at Maths               |         82
+#    4 | shreya   |   210 |      70 | reviewing        | A      | Good at singing             |         85
+#    6 | Hinata   |   250 |      75 | done             | A      | Too innocent                |        100
 
 
 
@@ -178,7 +178,7 @@ def generate_report_card(sno):
     return jsonify({"message": data}), 200
 
 
-@app.route("/delete/<int:sno>", methods=["DELETE"], endpoint='delete_student')      # DELETE an item from cart
+@app.route("/delete/<int:sno>", methods=["DELETE"], endpoint='delete_student')      # DELETE an student from table
 @handle_exceptions
 def delete_student(sno):
     # start the database connection
@@ -198,6 +198,130 @@ def delete_student(sno):
     logger(__name__).warning("Hence student deleted, closing the connection")
 
     return jsonify({"message": "Deleted Successfully", "item_no": sno}), 200
+
+
+
+@app.route("/search/<string:std_name>", methods=["GET"], endpoint='search_student')  # search student in the list
+@handle_exceptions
+def search_student(std_name):
+    cur, conn = connection()
+    logger(__name__).warning("Starting the db connection to search student in the list")
+
+    show_query = "SELECT * FROM school WHERE std_name = %s;"
+    cur.execute(show_query, (std_name, ))
+    get_std = cur.fetchone()
+
+    if not get_std:
+        # Log the details into logger file
+        logger(__name__).info(f"{std_name} not found in the list")
+        return jsonify({"message": f"{std_name} not found in the list"}), 200
+
+    # Log the details into logger file
+    logger(__name__).info(f"{std_name} found in the list")
+    return jsonify({"message": f"{std_name} found in the list"}), 200
+
+
+@app.route("/class_avg", methods=["GET"], endpoint='calculate_class_average')   # Calculate class average
+@handle_exceptions
+def calculate_class_average():
+    cur, conn = connection()
+    logger(__name__).warning("Starting the db connection to calculate overall average/grade of class")
+
+    cur.execute("SELECT SUM(average), COUNT(*) from school")
+    get_report = cur.fetchall()
+
+    total_sum = get_report[0][0]
+    no_of_students = get_report[0][1]
+    print(total_sum, no_of_students)
+
+    average = total_sum/no_of_students
+    print(average)
+
+    if 80 <= average or average <= 100:
+        grades = "A"
+    elif 65 <= average or average <= 79:
+        grades = "B"
+    elif 55 <= average or average <= 64:
+        grades = "C"
+    elif 50 <= average or average <= 54:
+        grades = "D"
+    else:
+        grades = "E"
+
+
+    # # Log the details into logger file
+    logger(__name__).info(f"Average of whole class is {average} and average grade is {grades}")
+    return jsonify({"message": f"Average of whole class is {average} and average grade is {grades}"}), 200
+
+
+@app.route("/performance/<int:sno>", methods=["PUT"], endpoint='enter_performance')  # performance of student
+@handle_exceptions
+def enter_performance(sno):
+    cur, conn = connection()
+    logger(__name__).warning("Starting the db connection to enter performance of student")
+
+    show_query = "SELECT std_name FROM school WHERE sno = %s;"
+    cur.execute(show_query, (sno, ))
+    get_std = cur.fetchone()
+
+    if not get_std:
+        # Log the details into logger file
+        logger(__name__).info(f"Student no {sno} not found in the list")
+        return jsonify({"message": f"Student no {sno} not found in the list"}), 200
+
+    # Get values from the user
+    performance = request.json['performance']
+
+    # performance query
+    query = "UPDATE school SET performance = %s WHERE sno = %s"
+    values = (performance, sno)
+
+    # Execute the query
+    cur.execute(query, values)
+
+    # Commit the changes to table
+    conn.commit()
+
+    # Log the details into logger file
+    logger(__name__).info(f"Performance of student with id {sno} has been added")
+    return jsonify({"message": f"Performance of student with id {sno} has been added"}), 200
+
+
+
+@app.route("/attendance/<int:sno>", methods=["PUT"], endpoint='enter_attendance')  # Attendance of student
+@handle_exceptions
+def enter_attendance(sno):
+    cur, conn = connection()
+    logger(__name__).warning("Starting the db connection to enter performance of student")
+
+    show_query = "SELECT std_name FROM school WHERE sno = %s;"
+    cur.execute(show_query, (sno, ))
+    get_std = cur.fetchone()
+
+    if not get_std:
+        # Log the details into logger file
+        logger(__name__).info(f"Student no {sno} not found in the list")
+        return jsonify({"message": f"Student no {sno} not found in the list"}), 200
+
+    # Get values from the user
+    attendance = request.json['attendance']
+
+    # performance query
+    query = "UPDATE school SET attendance = %s WHERE sno = %s"
+    values = (attendance, sno)
+
+    # Execute the query
+    cur.execute(query, values)
+
+    # Commit the changes to table
+    conn.commit()
+
+    # Log the details into logger file
+    logger(__name__).info(f"Attendance of student with id {sno} has been added")
+    return jsonify({"message": f"Attendance of student with id {sno} has been added"}), 200
+
+
+
 
 
 if __name__ == "__main__":

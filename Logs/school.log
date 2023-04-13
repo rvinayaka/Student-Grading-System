@@ -277,3 +277,217 @@ WARNING:2023-04-05 12:41:29,669:app:Closing the connection
 WARNING:2023-04-05 12:41:29,669:app:Closing the connection
 WARNING:2023-04-05 12:41:29,669:app:Closing the connection
 WARNING:2023-04-05 12:41:29,669:app:Closing the connection
+WARNING:2023-04-13 15:48:39,432:app:Starting the db connection to display student in the list
+INFO:2023-04-13 15:48:39,580:app:Displayed list of all students in the list
+INFO:2023-04-13 15:48:39,580:app:Displayed list of all students in the list
+WARNING:2023-04-13 15:48:39,580:app:Hence students displayed, closing the connection
+WARNING:2023-04-13 15:48:39,580:app:Hence students displayed, closing the connection
+WARNING:2023-04-13 15:48:39,580:app:Hence students displayed, closing the connection
+WARNING:2023-04-13 15:48:39,581:settings:Hence account created, closing the connection
+WARNING:2023-04-13 15:48:44,489:settings:Hence account created, closing the connection
+WARNING:2023-04-13 15:48:44,489:settings:Hence account created, closing the connection
+WARNING:2023-04-13 15:53:03,260:settings:Hence account created, closing the connection
+WARNING:2023-04-13 15:53:59,445:settings:Hence account created, closing the connection
+WARNING:2023-04-13 15:54:35,553:settings:Hence account created, closing the connection
+WARNING:2023-04-13 15:55:01,517:settings:Hence account created, closing the connection
+WARNING:2023-04-13 15:58:23,754:app:Starting the db connection to calculate overall average/grade of class
+INFO:2023-04-13 15:58:23,890:app:Average of whole class is 74.04 and average grade is A
+INFO:2023-04-13 15:58:23,890:app:Average of whole class is 74.04 and average grade is A
+WARNING:2023-04-13 15:58:23,891:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:22:51,486:app:Starting the db connection to enter performance of student
+INFO:2023-04-13 16:22:51,673:app:Performance of student with id 1 has been added
+INFO:2023-04-13 16:22:51,673:app:Performance of student with id 1 has been added
+WARNING:2023-04-13 16:22:51,674:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:23:24,081:app:Starting the db connection to enter performance of student
+INFO:2023-04-13 16:23:24,273:app:Performance of student with id 1 has been added
+INFO:2023-04-13 16:23:24,273:app:Performance of student with id 1 has been added
+WARNING:2023-04-13 16:23:24,274:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:23:49,613:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:23:49,613:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:23:49,613:app:Starting the db connection to enter performance of student
+INFO:2023-04-13 16:23:49,828:app:Performance of student with id 2 has been added
+INFO:2023-04-13 16:23:49,828:app:Performance of student with id 2 has been added
+INFO:2023-04-13 16:23:49,828:app:Performance of student with id 2 has been added
+INFO:2023-04-13 16:23:49,828:app:Performance of student with id 2 has been added
+WARNING:2023-04-13 16:23:49,829:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:23:49,829:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:24:12,916:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:12,916:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:12,916:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:12,916:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:12,916:app:Starting the db connection to enter performance of student
+INFO:2023-04-13 16:24:13,134:app:Performance of student with id 3 has been added
+INFO:2023-04-13 16:24:13,134:app:Performance of student with id 3 has been added
+INFO:2023-04-13 16:24:13,134:app:Performance of student with id 3 has been added
+INFO:2023-04-13 16:24:13,134:app:Performance of student with id 3 has been added
+INFO:2023-04-13 16:24:13,134:app:Performance of student with id 3 has been added
+INFO:2023-04-13 16:24:13,134:app:Performance of student with id 3 has been added
+WARNING:2023-04-13 16:24:13,135:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:24:13,135:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:24:13,135:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:24:30,182:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:30,182:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:30,182:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:30,182:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:30,182:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:30,182:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:30,182:app:Starting the db connection to enter performance of student
+INFO:2023-04-13 16:24:30,368:app:Performance of student with id 4 has been added
+INFO:2023-04-13 16:24:30,368:app:Performance of student with id 4 has been added
+INFO:2023-04-13 16:24:30,368:app:Performance of student with id 4 has been added
+INFO:2023-04-13 16:24:30,368:app:Performance of student with id 4 has been added
+INFO:2023-04-13 16:24:30,368:app:Performance of student with id 4 has been added
+INFO:2023-04-13 16:24:30,368:app:Performance of student with id 4 has been added
+INFO:2023-04-13 16:24:30,368:app:Performance of student with id 4 has been added
+INFO:2023-04-13 16:24:30,368:app:Performance of student with id 4 has been added
+WARNING:2023-04-13 16:24:30,369:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:24:30,369:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:24:30,369:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:24:30,369:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:24:45,563:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:45,563:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:45,563:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:45,563:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:45,563:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:45,563:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:45,563:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:45,563:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:24:45,563:app:Starting the db connection to enter performance of student
+INFO:2023-04-13 16:24:45,784:app:Performance of student with id 6 has been added
+INFO:2023-04-13 16:24:45,784:app:Performance of student with id 6 has been added
+INFO:2023-04-13 16:24:45,784:app:Performance of student with id 6 has been added
+INFO:2023-04-13 16:24:45,784:app:Performance of student with id 6 has been added
+INFO:2023-04-13 16:24:45,784:app:Performance of student with id 6 has been added
+INFO:2023-04-13 16:24:45,784:app:Performance of student with id 6 has been added
+INFO:2023-04-13 16:24:45,784:app:Performance of student with id 6 has been added
+INFO:2023-04-13 16:24:45,784:app:Performance of student with id 6 has been added
+INFO:2023-04-13 16:24:45,784:app:Performance of student with id 6 has been added
+INFO:2023-04-13 16:24:45,784:app:Performance of student with id 6 has been added
+WARNING:2023-04-13 16:24:45,784:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:24:45,784:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:24:45,784:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:24:45,784:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:24:45,784:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:27:41,187:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:27:41,359:settings:Hence account created, closing the connection
+ERROR:2023-04-13 16:27:41,359:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Grades/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Grades/app.py", line 307, in enter_attendance
+    performance = request.json['performance']
+KeyError: 'performance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Grades/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+WARNING:2023-04-13 16:28:18,175:app:Starting the db connection to enter performance of student
+INFO:2023-04-13 16:28:18,387:app:Attendance of student with id 1 has been added
+INFO:2023-04-13 16:28:18,387:app:Attendance of student with id 1 has been added
+WARNING:2023-04-13 16:28:18,388:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:28:48,425:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:28:48,425:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:28:48,425:app:Starting the db connection to enter performance of student
+INFO:2023-04-13 16:28:48,623:app:Attendance of student with id 2 has been added
+INFO:2023-04-13 16:28:48,623:app:Attendance of student with id 2 has been added
+INFO:2023-04-13 16:28:48,623:app:Attendance of student with id 2 has been added
+INFO:2023-04-13 16:28:48,623:app:Attendance of student with id 2 has been added
+WARNING:2023-04-13 16:28:48,623:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:28:48,623:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:28:55,135:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:28:55,135:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:28:55,135:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:28:55,135:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:28:55,135:app:Starting the db connection to enter performance of student
+INFO:2023-04-13 16:28:55,366:app:Attendance of student with id 6 has been added
+INFO:2023-04-13 16:28:55,366:app:Attendance of student with id 6 has been added
+INFO:2023-04-13 16:28:55,366:app:Attendance of student with id 6 has been added
+INFO:2023-04-13 16:28:55,366:app:Attendance of student with id 6 has been added
+INFO:2023-04-13 16:28:55,366:app:Attendance of student with id 6 has been added
+INFO:2023-04-13 16:28:55,366:app:Attendance of student with id 6 has been added
+WARNING:2023-04-13 16:28:55,366:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:28:55,366:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:28:55,366:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:29:05,612:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:05,612:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:05,612:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:05,612:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:05,612:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:05,612:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:05,612:app:Starting the db connection to enter performance of student
+INFO:2023-04-13 16:29:05,847:app:Attendance of student with id 3 has been added
+INFO:2023-04-13 16:29:05,847:app:Attendance of student with id 3 has been added
+INFO:2023-04-13 16:29:05,847:app:Attendance of student with id 3 has been added
+INFO:2023-04-13 16:29:05,847:app:Attendance of student with id 3 has been added
+INFO:2023-04-13 16:29:05,847:app:Attendance of student with id 3 has been added
+INFO:2023-04-13 16:29:05,847:app:Attendance of student with id 3 has been added
+INFO:2023-04-13 16:29:05,847:app:Attendance of student with id 3 has been added
+INFO:2023-04-13 16:29:05,847:app:Attendance of student with id 3 has been added
+WARNING:2023-04-13 16:29:05,848:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:29:05,848:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:29:05,848:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:29:05,848:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:29:15,051:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:15,051:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:15,051:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:15,051:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:15,051:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:15,051:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:15,051:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:15,051:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:15,051:app:Starting the db connection to enter performance of student
+INFO:2023-04-13 16:29:15,240:app:Attendance of student with id 4 has been added
+INFO:2023-04-13 16:29:15,240:app:Attendance of student with id 4 has been added
+INFO:2023-04-13 16:29:15,240:app:Attendance of student with id 4 has been added
+INFO:2023-04-13 16:29:15,240:app:Attendance of student with id 4 has been added
+INFO:2023-04-13 16:29:15,240:app:Attendance of student with id 4 has been added
+INFO:2023-04-13 16:29:15,240:app:Attendance of student with id 4 has been added
+INFO:2023-04-13 16:29:15,240:app:Attendance of student with id 4 has been added
+INFO:2023-04-13 16:29:15,240:app:Attendance of student with id 4 has been added
+INFO:2023-04-13 16:29:15,240:app:Attendance of student with id 4 has been added
+INFO:2023-04-13 16:29:15,240:app:Attendance of student with id 4 has been added
+WARNING:2023-04-13 16:29:15,241:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:29:15,241:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:29:15,241:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:29:15,241:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:29:15,241:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:29:24,378:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:24,378:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:24,378:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:24,378:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:24,378:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:24,378:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:24,378:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:24,378:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:24,378:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:24,378:app:Starting the db connection to enter performance of student
+WARNING:2023-04-13 16:29:24,378:app:Starting the db connection to enter performance of student
+INFO:2023-04-13 16:29:24,563:app:Attendance of student with id 6 has been added
+INFO:2023-04-13 16:29:24,563:app:Attendance of student with id 6 has been added
+INFO:2023-04-13 16:29:24,563:app:Attendance of student with id 6 has been added
+INFO:2023-04-13 16:29:24,563:app:Attendance of student with id 6 has been added
+INFO:2023-04-13 16:29:24,563:app:Attendance of student with id 6 has been added
+INFO:2023-04-13 16:29:24,563:app:Attendance of student with id 6 has been added
+INFO:2023-04-13 16:29:24,563:app:Attendance of student with id 6 has been added
+INFO:2023-04-13 16:29:24,563:app:Attendance of student with id 6 has been added
+INFO:2023-04-13 16:29:24,563:app:Attendance of student with id 6 has been added
+INFO:2023-04-13 16:29:24,563:app:Attendance of student with id 6 has been added
+INFO:2023-04-13 16:29:24,563:app:Attendance of student with id 6 has been added
+INFO:2023-04-13 16:29:24,563:app:Attendance of student with id 6 has been added
+WARNING:2023-04-13 16:29:24,564:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:29:24,564:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:29:24,564:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:29:24,564:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:29:24,564:settings:Hence account created, closing the connection
+WARNING:2023-04-13 16:29:24,564:settings:Hence account created, closing the connection
